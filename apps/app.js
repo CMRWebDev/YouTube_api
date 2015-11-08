@@ -4,9 +4,9 @@ $(function(){
 $(function(){
   $('#button').click(function(event){
     event.preventDefault();
-    var searchTerm = $('#search').val();
+    var searchTerm = $('#query').val();
     getRequest(searchTerm);
-    $("#search").val('');
+    $("#query").val('');
   });
 });
 
